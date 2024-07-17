@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.visible {
+    opacity: 1;
+    display: block;
+  }
+  .roboto {
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .hovermov {
+   width: 100%;
+
+   
+    transform: translateY(-2500px);
+  }

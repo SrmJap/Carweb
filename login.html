@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/output.css" rel="stylesheet">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+</head>
+
+<body>
+    <section class='w-screen h-screen '>
+        <nav class='flex  justify-between px-20 mt-20 cursor-pointer'>
+            <svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" width="40" height="40" class=''>
+                <path
+                    d="M680 0H120C53.7 0 0 53.7 0 120v560c0 66.3 53.7 120 120 120h560c66.3 0 120-53.7 120-120V120C800 53.7 746.3 0 680 0z"
+                    fill="#ff6900" />
+                <path
+                    d="M515.3 366.1V546c0 4.4-3.6 8-8 8h-64c-4.4 0-8-3.6-8-8V366.1c0-22.1-17.9-40-40-40H239.6c-2.2 0-4 1.8-4 4V546c0 4.4-3.6 8-8 8h-64c-4.4 0-8-3.6-8-8V254.1c0-4.4 3.6-8 8-8h231.7c66.3 0 120 53.7 120 120zm-147.8 0h-64c-4.4 0-8 3.6-8 8V546c0 4.4 3.6 8 8 8h64c4.4 0 8-3.6 8-8V374.1c0-4.4-3.6-8-8-8zm268.9-120h-64c-4.4 0-8 3.6-8 8V546c0 4.4 3.6 8 8 8h64c4.4 0 8-3.6 8-8V254.1c0-4.4-3.6-8-8-8z"
+                    fill="#fff" />
+            </svg>
+            <div class="flex gap-5">
+                <a href="/index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32">
+                        <path fill="#000000"
+                            d="M16.612 2.214a1.01 1.01 0 0 0-1.242 0L1 13.419l1.243 1.572L4 13.621V26a2.004 2.004 0 0 0 2 2h20a2.004 2.004 0 0 0 2-2V13.63L29.757 15L31 13.428ZM18 26h-4v-8h4Zm2 0v-8a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v8H6V12.062l10-7.79l10 7.8V26Z" />
+                    </svg>
+                </a>
+                <a href="">
+                    <svg class=" hover:bg-opacity-10 hover:bg-black rounded duration-500" width="40" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor"
+                            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10M9.254 20.047a8 8 0 0 1-.768-1.378c-.404-.91-.722-1.985-.935-3.169h-3.3a8.53 8.53 0 0 0 5.003 4.547m.603-1.988c.336.757.718 1.324 1.103 1.69.382.364.732.501 1.04.501s.658-.137 1.04-.5c.385-.367.767-.934 1.103-1.69.321-.723.588-1.59.78-2.56H9.076c.192.97.459 1.837.78 2.56ZM8.75 12q.001 1.038.103 2h6.294q.102-.962.103-2-.001-1.038-.103-2H8.853q-.102.962-.103 2m-1.405-2H3.737a8.5 8.5 0 0 0-.237 2c0 .689.082 1.359.237 2h3.608a21 21 0 0 1 0-4m1.732-1.5h5.845c-.19-.97-.458-1.837-.779-2.56-.336-.756-.718-1.323-1.103-1.69-.382-.363-.732-.5-1.04-.5s-.658.137-1.04.5c-.385.367-.767.934-1.103 1.69-.321.723-.588 1.59-.78 2.56m7.577 1.5a20.7 20.7 0 0 1 0 4h3.61a8.5 8.5 0 0 0 .236-2 8.5 8.5 0 0 0-.237-2zm3.094-1.5a8.53 8.53 0 0 0-5.002-4.547c.287.408.543.873.768 1.378.404.91.722 1.985.935 3.169h3.3Zm-12.197 0c.213-1.184.531-2.26.935-3.169.225-.505.48-.97.768-1.378A8.53 8.53 0 0 0 4.252 8.5zm7.963 10.169c-.225.505-.48.97-.768 1.378a8.53 8.53 0 0 0 5.002-4.547h-3.3c-.212 1.184-.53 2.26-.934 3.169">
+                        </path>
+                    </svg>
+                </a>
+
+            </div>
+
+        </nav>
+        <h1 class='text-center text-7xl font-bold py-10'>Sign In</h1>
+        <div class=''>
+
+
+            <div class=''>
+
+                <form action="" class='flex-col flex justify-center py-3 '>
+                    <input type="text" placeholder='Email@ ' required="true"
+                        class='mx-auto border w-64 h-12 rounded px-2 border-black' />
+
+                </form>
+                <div class='w-full flex justify-center'>
+                    <button class='mt-5 w-64 bg-orange-500 hover:bg-black duration-300 h-12 rounded text-white'>
+                        Next</button>
+                </div>
+
+                <div class='w-full mx-auto text-center py-3 underline underline-offset-8'>
+                    <a href="" class=''>Trouble Signing In?</a>
+
+                </div>
+                <p class='text-center py-5'>Or</p>
+                <div class='flex py-5'>
+                    <button class='mx-auto w-64 bg-black h-12 hover:bg-orange-500 duration-300 rounded text-white'>
+                        Create Account</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class='mt-40 flex justify-center gap-10 md:text-lg  px-2'>
+            <a href="" class='hover:underline underline-offset-8'>Xiaomi Srm_dev </a>
+            <a href="" class='hover:underline underline-offset-8'>Privacy & legal</a>
+            <a href="" class='hover:underline underline-offset-8'>Contact</a>
+        </div>
+    </section>
+
+</body>
+
+</html>
